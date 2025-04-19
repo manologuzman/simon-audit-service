@@ -88,16 +88,18 @@
 
 <h2>Description</h2>
 <p><a href="https://github.com/nestjs/nest">Nest</a> framework TypeScript starter repository.</p>
-<h1>Microservicio de auditoría y control de flota</h1>
+<h1>Microservicio de auditoría</h1>
 <p>El microservicio de auditoría es responsable de registrar y almacenar de forma estructurada los datos relacionados con:</p>
 <p>Alertas generadas</p>
 <p>Este servicio forma parte de una arquitectura de microservicios para un sistema de monitoreo y control de flotas, y actúa como bitácora central para trazabilidad, reportes y análisis posteriores.</p>
 <p>Está construido con NestJS.</p>
 <h2>Características</h2>
-<p>Registro de alertas (tipo, severidad, mensaje, timestamp, ubicación).
-Validación de datos mediante DTOs y class-validator.
-Swagger API Documentation.
-Persistencia en PostgreSQL usando Prisma ORM.</p>
+<ul>
+<li>Registro de alertas (tipo, severidad, mensaje, timestamp).</li>
+<li>Validación de datos mediante DTOs y class-validator.</li>
+<li>Swagger API Documentation.</li>
+<li>Persistencia en PostgreSQL usando Prisma ORM.</li>
+</ul>
 <h2>Requisitos</h2>
 <ul>
 <li>Node.js (v16 o superior)</li>
@@ -136,13 +138,12 @@ $ npm run start:prod</code></pre></div><h2>Deployment</h2>
     &quot;timestamp&quot;: &quot;2025-04-19T18:33:37.216Z&quot;
 }</code></pre></div><h2>Documentación API</h2>
 <p>La documentación de la API está disponible en Swagger UI:</p>
-<b>Example :</b><div><pre class="line-numbers"><code class="language-none">http://localhost:3003/api/docs</code></pre></div><p>Incluye:</p>
-<p>Tags por módulo (Geolocation, Routing, Alert)
-Ejemplos de payloads
-Seguridad con Bearer Token (si se activa)</p>
-<h2>Arquitectura</h2>
-<p>El proyecto sigue una arquitectura hexagonal (puertos y adaptadores)</p>
+<p><a href="http://localhost:3003/api/docs">http://localhost:3003/api/docs</a></p>
+<p>La documentación de la API está disponible en CompoDoc UI:</p>
 <p><a href="http://localhost:3003/docs/">http://localhost:3003/docs/</a></p>
+<p>Incluye:</p>
+<p>Tags por módulo (Alert)
+Ejemplos de payloads</p>
 <h2>Pruebas</h2>
 <b>Example :</b><div><pre class="line-numbers"><code class="language-bash"># Ejecutar pruebas unitarias
 npm run test

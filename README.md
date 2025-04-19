@@ -9,7 +9,7 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-# Microservicio de auditoría y control de flota
+# Microservicio de auditoría
 
 El microservicio de auditoría es responsable de registrar y almacenar de forma estructurada los datos relacionados con:
 
@@ -21,10 +21,10 @@ Está construido con NestJS.
 
 ## Características
 
-Registro de alertas (tipo, severidad, mensaje, timestamp, ubicación).
-Validación de datos mediante DTOs y class-validator.
-Swagger API Documentation.
-Persistencia en PostgreSQL usando Prisma ORM.
+- Registro de alertas (tipo, severidad, mensaje, timestamp).
+- Validación de datos mediante DTOs y class-validator.
+- Swagger API Documentation.
+- Persistencia en PostgreSQL usando Prisma ORM.
 
 ## Requisitos
 
@@ -105,6 +105,9 @@ POST /alert
 La documentación de la API está disponible en Swagger UI:
 
 http://localhost:3003/api/docs
+
+La documentación de la API está disponible en CompoDoc UI:
+
 http://localhost:3003/docs/
 
 Incluye:
