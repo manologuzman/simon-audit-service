@@ -104,21 +104,13 @@ POST /alert
 
 La documentación de la API está disponible en Swagger UI:
 
-```
 http://localhost:3003/api/docs
-```
+http://localhost:3003/docs/
 
 Incluye:
 
-Tags por módulo (Geolocation, Routing, Alert)
+Tags por módulo (Alert)
 Ejemplos de payloads
-Seguridad con Bearer Token (si se activa)
-
-## Arquitectura
-
-El proyecto sigue una arquitectura hexagonal (puertos y adaptadores)
-
-http://localhost:3003/documentation/
 
 ## Pruebas
 
