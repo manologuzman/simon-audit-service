@@ -14,9 +14,8 @@ spec:
     spec:
       containers:
         - name: audit-service
-          image: audit-service:latest
+          image: manuel/audit-service:latest
           ports:
             - containerPort: 3003
           env:
             - name: DATABASE_URL
-

@@ -3,9 +3,11 @@ kind: Service
 metadata:
   name: audit-service
 spec:
+  type: NodePort
   selector:
     app: audit-service
   ports:
     - protocol: TCP
       port: 3003
       targetPort: 3003
+      nodePort: 30030
