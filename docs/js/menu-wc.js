@@ -106,23 +106,6 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                     </ul>
                                 </li>
                             </li>
-                            <li class="link">
-                                <a href="modules/RedisModule.html" data-type="entity-link" >RedisModule</a>
-                                <li class="chapter inner">
-                                    <div class="simple menu-toggler" data-bs-toggle="collapse" ${ isNormalMode ?
-                                        'data-bs-target="#injectables-links-module-RedisModule-855ac177adabbe3809b8c195d8d0c098add5ad84cdaa3b64a2c81b90ded3688aa1e188dc85a26dce2fe1f0cad9090df3c652d231727aea9250cafebe2bf74581"' : 'data-bs-target="#xs-injectables-links-module-RedisModule-855ac177adabbe3809b8c195d8d0c098add5ad84cdaa3b64a2c81b90ded3688aa1e188dc85a26dce2fe1f0cad9090df3c652d231727aea9250cafebe2bf74581"' }>
-                                        <span class="icon ion-md-arrow-round-down"></span>
-                                        <span>Injectables</span>
-                                        <span class="icon ion-ios-arrow-down"></span>
-                                    </div>
-                                    <ul class="links collapse" ${ isNormalMode ? 'id="injectables-links-module-RedisModule-855ac177adabbe3809b8c195d8d0c098add5ad84cdaa3b64a2c81b90ded3688aa1e188dc85a26dce2fe1f0cad9090df3c652d231727aea9250cafebe2bf74581"' :
-                                        'id="xs-injectables-links-module-RedisModule-855ac177adabbe3809b8c195d8d0c098add5ad84cdaa3b64a2c81b90ded3688aa1e188dc85a26dce2fe1f0cad9090df3c652d231727aea9250cafebe2bf74581"' }>
-                                        <li class="link">
-                                            <a href="injectables/RedisService.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >RedisService</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </li>
                 </ul>
                 </li>
                         <li class="chapter">
@@ -170,9 +153,6 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                 </li>
                                 <li class="link">
                                     <a href="injectables/PrismaService.html" data-type="entity-link" >PrismaService</a>
-                                </li>
-                                <li class="link">
-                                    <a href="injectables/RedisService.html" data-type="entity-link" >RedisService</a>
                                 </li>
                             </ul>
                         </li>
