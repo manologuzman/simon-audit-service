@@ -12,6 +12,10 @@ async function bootstrap() {
     prefix: '/docs',
   });
 
+  app.useStaticAssets(join(__dirname, '..', 'coverage/lcov-report'), {
+    prefix: '/coverage',
+  });
+
   app.useGlobalPipes(
     new ValidationPipe({
       whitelist: true,
